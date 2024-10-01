@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "Shanghai, China"
-title                    : "Haotian Li's website"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Haotianli/李浩天"
 description              : &description "personal description"
