@@ -7,5 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi！ Welcom to my website. My name is haotian
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Welcom to my website! 
+
+My name is **Haotianli/李浩天**, and I am now pursuing a master's degree in Management Science at **Antai College of Economics and Management, Shanghai Jiao Tong University**. Before this, I obtained my bachelor's degree in Electrical Engineering and Automation at **Tianjin University**. Recently I am working on my Phd application in Operations Management/Industrial Engineering.
+
