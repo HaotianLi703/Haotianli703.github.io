@@ -21,7 +21,7 @@ repository               : "haotianli703/haotianli703.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "个人主页图片.jpg"
   name             : "Haotian Li/李浩天"
   pronouns         : # example: "she/her"  
   bio              : "Currently a master student in management science"
