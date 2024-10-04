@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Life Outside the Lab"
 author_profile: true
 redirect_from: 
   - /md/
