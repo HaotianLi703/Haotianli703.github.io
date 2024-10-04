@@ -1,6 +1,6 @@
 ---
-permalink: /markdown/
-title: "Life Outside the Lab"
+permalink: /Life Outside the Lab/
+title: ""
 author_profile: true
 redirect_from: 
   - /md/
