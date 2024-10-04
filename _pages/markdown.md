@@ -1,3 +1,13 @@
+---
+permalink: /markdown/
+title: ""
+author_profile: true
+redirect_from: 
+  - /md/
+  - /markdown.html
+---
+
+
 ## Life Beyond Research
 
 Outside of my research, I am passionate about basketball and enjoy playing it regularly. It helps me stay active and refreshed. 
