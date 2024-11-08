@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haotian li/李浩天"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
