@@ -1,7 +1,7 @@
 ---
 title: "Personalized Health Check Policy: A Data-driven approach based on POMDP"
 collection: publications
-category: journals
+category: Journal
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
