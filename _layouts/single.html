@@ -36,7 +36,7 @@ layout: default
         {% endif %}
         {% endcomment %}
 
-        
+        {% comment %}
         {% if page.collection == 'teaching' %}
           <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif page.date %}
@@ -46,6 +46,7 @@ layout: default
         {% else %}
           <p>Working Paper</p>
         {% endif %}
+          {% endcomment %}
         </header>
       {% endunless %}
 
