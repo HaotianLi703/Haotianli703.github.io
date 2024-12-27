@@ -5,57 +5,32 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- 这里提示目前没有发表文章的情况 -->
-I currently do not have any published papers (′⌒`), but I am actively working towards this goal.
+ I currently do not have any published papers (′⌒), but I am actively working towards this goal.
 
-<!-- 如果存在Google Scholar链接，显示该链接 -->
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<!-- 引用Jekyll默认的base_path样式 -->
 {% include base_path %}
 
-<!-- 如果定义了publication_category，就按类别分组显示 -->
+<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category %}
+  {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    <!-- 遍历所有文章，按类别筛选 -->
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      
-      <!-- 显示类别标题 -->
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      
-      <!-- 检查文章是否有发布日期，如果没有，则显示“Working Paper” -->
-      <h3>
-        {% if post.date %}
-          {{ post.date | date: "%B %d, %Y" }} <!-- 如果有发布日期，显示具体日期 -->
-        {% else %}
-          Working Paper <!-- 如果没有发布日期，显示“Working Paper” -->
-        {% endif %}
-      </h3>
-
-      <!-- 单篇文章的展示 -->
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
-  <!-- 如果没有类别定义，直接显示所有文章 -->
   {% for post in site.publications reversed %}
-    <!-- 检查文章是否有发布日期，如果没有，则显示“Working Paper” -->
-    <h3>
-      {% if post.date %}
-        {{ post.date | date: "%B %d, %Y" }} <!-- 如果有发布日期，显示具体日期 -->
-      {% else %}
-        Working Paper <!-- 如果没有发布日期，显示“Working Paper” -->
-      {% endif %}
-    </h3>
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %}  
